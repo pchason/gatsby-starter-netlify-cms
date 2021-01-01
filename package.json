@@ -1,0 +1,20 @@
+{
+  "name": "paulchason.com",
+  "version": "1.0.0",
+  "description": "PaulChason.com package.",
+  "main": "index.js",
+  "repository": "git@github.com:pchason/paulchason.com-gatsby-netlify.git",
+  "author": "<paulchason@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.29.3",
+    "gatsby-theme-serenity": "^1.1.53",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  }
+}
