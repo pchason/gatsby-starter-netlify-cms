@@ -10,14 +10,14 @@ collections:
     label: "Post"
     folder: "content"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{month}}-{{day}}-{{year}}-{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Layout", name: "template", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug / URL", name: "slug", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true, date_format: "ll", format: "ll", time_format: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", picker_utc: true, date_format: "LL", time_format: false}
       - {label: "Image", name: "coverImage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "page"
@@ -26,7 +26,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "template", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Slug / URL", name: "slug", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
