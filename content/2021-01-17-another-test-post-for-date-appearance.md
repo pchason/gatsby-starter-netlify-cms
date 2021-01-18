@@ -5,7 +5,7 @@ slug: another test post
 description: testing
 tags:
   - testing
-date: Jan 17, 2021
+date: Jan 16, 2021
 coverImage: /media/img_4950.jpg
 ---
 # This is a test post.
