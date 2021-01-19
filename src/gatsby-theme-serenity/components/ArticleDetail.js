@@ -2,7 +2,7 @@ import React from 'react';
 import useFormattedDate from "../hooks/use-formatted-date";
 
 export default ({ title, date, content, coverImage="", coverImageCaption="" }) => {
-    const formattedDate = useFormattedDate(date, "LL");
+    const formattedDate = useFormattedDate(date, "ll");
     
     return <article className={"article detail"}>
         <header>
