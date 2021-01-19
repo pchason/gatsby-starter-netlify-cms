@@ -5,7 +5,7 @@ slug: /2021/test-component-placeholder
 description: testing
 tags:
   - test
-date: 2021-01-18T18:37:26.754Z
+date: 2021-01-16T00:13:42.199Z
 coverImage: /media/img_4950.jpg
 ---
 testing if date appears with placeholder hard text.
