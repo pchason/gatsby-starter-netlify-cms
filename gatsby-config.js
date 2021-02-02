@@ -17,7 +17,7 @@ module.exports = {
                      linkedin: "https://linkedin.com/in/paulchason",
                      github: "https://github.com/pchason",
                      instagram: "https://instagram.com/chasonp",
-                     mail: "mailto:paulchason@gmail.com"
+                     mail: ""
                  }
              },
              links: [
