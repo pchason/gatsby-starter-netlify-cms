@@ -17,14 +17,6 @@ export default ({ title, date, content, coverImage="", coverImageCaption="" }) =
         </figure>}
 
         <section dangerouslySetInnerHTML={{__html: content}}/>
-        <script src="https://utteranc.es/client.js"
-            repo="pchason/paulchason.com-gatsby-netlify"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-        </script>
-
     </article>
 }
 
