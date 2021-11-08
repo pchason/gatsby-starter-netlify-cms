@@ -1,6 +1,6 @@
 ---
 template: post
-title: Test post after config yml change
+title: Test post after config yml change. Test.
 slug: /2021/test config yml change
 description: config change
 date: 2021-01-17T00:07:44.954Z
